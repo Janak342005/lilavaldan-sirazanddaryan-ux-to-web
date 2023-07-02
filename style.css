@@ -1,0 +1,86 @@
+/* All generic properties are here */
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: 2px solid black; */
+}
+body{
+    background-color: rgba(237,237,239,255);
+}
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
+h4{
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+
+img{
+    width: 80px;
+
+}
+
+/* Styling navbar here */
+
+nav{
+    margin-top: 10px;
+    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+}
+.navElement1{
+    mix-blend-mode: color-burn;
+}
+.navElement2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.text{
+    padding: 20px;
+    border-left: 1px solid black;
+    font-family: 'Martian Mono', monospace;
+}
+
+/* Styling section of the page here */
+
+section{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.mainImage{
+    width: 80%;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 30px;
+    box-shadow: 10cm solid black;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 30px;
+}
+.mainText{
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.h4{
+    margin-bottom: 10px;
+}
